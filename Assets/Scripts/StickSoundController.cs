@@ -10,6 +10,7 @@ public class StickSoundController : MonoBehaviour
     bool alreadyPlayed = false;
     public bool groundCheck;
 
+
     AudioSource AudioSource;
     private void Start()
     {
@@ -22,7 +23,7 @@ public class StickSoundController : MonoBehaviour
         if (other.gameObject.tag == "Objects")
         {
             AudioSource.PlayOneShot(check);
-
+            Debug.Log(other.GetComponent<ObjectAudioSourceScript>().audioType);
         }
         if (other.gameObject.tag == "Ground")
         {
