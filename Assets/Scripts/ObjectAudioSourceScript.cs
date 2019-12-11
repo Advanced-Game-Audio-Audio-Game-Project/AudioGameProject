@@ -16,11 +16,10 @@ public class ObjectAudioSourceScript : MonoBehaviour
     [Range(0f,1f)]
     public float hollowness=0;
 
-
     public AudioType audioType;
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
     }
 

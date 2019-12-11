@@ -6,8 +6,7 @@ public class StickSoundController : MonoBehaviour
 {
     public AudioClip check;
     public AudioClip leave;
-    public AudioClip drag;
-    bool alreadyPlayed = false;
+    public AudioClip carpet;
     public bool groundCheck;
 
 
@@ -20,17 +19,39 @@ public class StickSoundController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Objects")
+        if (other.gameObject.tag == "Objects" || other.gameObject.tag == "Wall" || other.gameObject.tag == "Cabinet" || other.gameObject.tag == "Window" || other.gameObject.tag == "Table")
         {
             AudioSource.PlayOneShot(check);
-            Debug.Log(other.GetComponent<ObjectAudioSourceScript>().audioType);
+            Debug.Log("Object type: " + other.GetComponent<ObjectAudioSourceScript>().audioType + "-----" + "Object hollowness: " + other.GetComponent<ObjectAudioSourceScript>().hollowness);
         }
         if (other.gameObject.tag == "Ground")
         {
             AudioSource.PlayOneShot(leave);
             groundCheck = true;
         }
+        if (other.gameObject.tag == "Carpet")
+        {
+            AudioSource.PlayOneShot(carpet);
+            groundCheck = true;
+        }
+
+
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.tag == "Objects")
+    //    {
+    //        AudioSource.PlayOneShot(check);
+    //        Debug.Log(collision.GetComponent<ObjectAudioSourceScript>().audioType);
+    //        Debug.Log(collision.GetComponent<ObjectAudioSourceScript>().hollowness);
+    //    }
+    //    if (collision.gameObject.tag == "Ground")
+    //    {
+    //        AudioSource.PlayOneShot(leave);
+    //        groundCheck = true;
+    //    }
+    //}
     //private void OnTriggerStay(Collider other)
     //{
     //    Debug.Log(alreadyPlayed);
@@ -48,7 +69,6 @@ public class StickSoundController : MonoBehaviour
     {
         if (other.gameObject.tag == "Ground")
         {
-            alreadyPlayed = false;
             groundCheck = false;
         }
     }
