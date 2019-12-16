@@ -17,7 +17,7 @@ public class StickSoundController : MonoBehaviour
         AudioSource = GetComponent<AudioSource>();
         Cursor.visible = false;
     }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Objects")
