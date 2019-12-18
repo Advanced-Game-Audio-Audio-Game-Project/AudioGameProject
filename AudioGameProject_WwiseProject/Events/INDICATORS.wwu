@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC7399B0-2DB6-447D-8EED-C2E9580B93DE}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="INDICATORS" ID="{AC7399B0-2DB6-447D-8EED-C2E9580B93DE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Carpet" ID="{DD405DE8-639A-447A-9A75-65867CB4DD71}"/>
+				<Event Name="Door" ID="{59E206C5-49B8-4C84-872B-638F35D6813F}"/>
+				<Event Name="Drawer" ID="{05EA88CD-0EF0-4384-8612-91B6961199CB}"/>
+				<Event Name="Floor" ID="{06CC1BB8-C627-487F-817A-C5491479C4F6}"/>
+				<Event Name="FoodCan" ID="{88AA8D53-D023-436A-80BF-F140F7158C32}"/>
+				<Event Name="Phone" ID="{62CF5C66-2727-4F6D-9373-9E1DF6FAE0F0}"/>
+				<Event Name="Table" ID="{B923A613-5629-4AF6-B116-FC243A19B020}"/>
+				<Event Name="Wall" ID="{AAAA719E-70FC-411A-8E62-BF8DC8042ACE}"/>
+				<Event Name="Window" ID="{88508078-82CD-4D63-BD16-AFBD8F3FCB62}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
