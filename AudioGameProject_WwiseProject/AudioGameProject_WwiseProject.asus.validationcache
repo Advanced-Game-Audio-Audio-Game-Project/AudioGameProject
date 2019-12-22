@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1577018579" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\AudioGameProject_WwiseProject.wproj" DateLow="1576670181" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\AudioGameProject_WwiseProject.asus.wsettings" DateLow="1577018684" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\AudioGameProject_WwiseProject.wproj" DateLow="1576670762" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1576670715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1576670181" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Effects\Factory Effects.wwu" DateLow="1576670181" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Events\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Events\AMBIANCE.wwu" DateLow="1577014765" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Events\Default Work Unit.wwu" DateLow="1576670715" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Events\DOG.wwu" DateLow="1577015394" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Events\Footsteps.wwu" DateLow="1577017238" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Events\INDICATORS.wwu" DateLow="1577018579" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Events\INTERACTION.wwu" DateLow="1577017485" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1576670181" DateHigh="0"/>

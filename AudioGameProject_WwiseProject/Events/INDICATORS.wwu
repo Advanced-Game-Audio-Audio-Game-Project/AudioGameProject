@@ -3,15 +3,127 @@
 	<Events>
 		<WorkUnit Name="INDICATORS" ID="{AC7399B0-2DB6-447D-8EED-C2E9580B93DE}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Carpet" ID="{DD405DE8-639A-447A-9A75-65867CB4DD71}"/>
-				<Event Name="Door" ID="{59E206C5-49B8-4C84-872B-638F35D6813F}"/>
-				<Event Name="Drawer" ID="{05EA88CD-0EF0-4384-8612-91B6961199CB}"/>
-				<Event Name="Floor" ID="{06CC1BB8-C627-487F-817A-C5491479C4F6}"/>
-				<Event Name="FoodCan" ID="{88AA8D53-D023-436A-80BF-F140F7158C32}"/>
-				<Event Name="Phone" ID="{62CF5C66-2727-4F6D-9373-9E1DF6FAE0F0}"/>
-				<Event Name="Table" ID="{B923A613-5629-4AF6-B116-FC243A19B020}"/>
-				<Event Name="Wall" ID="{AAAA719E-70FC-411A-8E62-BF8DC8042ACE}"/>
-				<Event Name="Window" ID="{88508078-82CD-4D63-BD16-AFBD8F3FCB62}"/>
+				<Event Name="Carpet" ID="{DD405DE8-639A-447A-9A75-65867CB4DD71}">
+					<ChildrenList>
+						<Action Name="" ID="{5682045F-8E61-4551-984B-AFE21D041D07}" ShortID="56639516">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Carpet" ID="{C3FDCB89-B3B6-4B3D-8878-7C1EA36345CC}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door" ID="{59E206C5-49B8-4C84-872B-638F35D6813F}">
+					<ChildrenList>
+						<Action Name="" ID="{85821396-AE23-4D4B-A8E4-E850AAFA0602}" ShortID="861096798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal Door" ID="{1603EB60-7738-429B-890E-CA13660A0052}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Drawer" ID="{05EA88CD-0EF0-4384-8612-91B6961199CB}">
+					<ChildrenList>
+						<Action Name="" ID="{E0418A1C-CCE2-4166-9B7F-CB27282E1070}" ShortID="199840395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drawer Open" ID="{14C7D8A0-08DB-44C2-A98C-7B00131A9CEC}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Floor" ID="{06CC1BB8-C627-487F-817A-C5491479C4F6}">
+					<ChildrenList>
+						<Action Name="" ID="{B2B943CB-4D3B-49F5-AA2C-507252671F4A}" ShortID="981645480">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="floorWood" ID="{DE5707A9-6711-4231-A33A-85FB1E4A4847}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FoodCanHollow" ID="{88AA8D53-D023-436A-80BF-F140F7158C32}">
+					<ChildrenList>
+						<Action Name="" ID="{EA20B2F4-E0F1-454D-ADEC-95262709C65F}" ShortID="827960086">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Food Can (hollow)" ID="{C114B914-F63B-4AE3-B5C3-34EB709941E9}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Phone" ID="{62CF5C66-2727-4F6D-9373-9E1DF6FAE0F0}">
+					<ChildrenList>
+						<Action Name="" ID="{9D14D04E-4E6B-45FD-AC75-6612C40B54B2}" ShortID="87921366">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone" ID="{C53CDD26-7CB1-4F95-89EC-DDFF8D2511DE}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Table" ID="{B923A613-5629-4AF6-B116-FC243A19B020}">
+					<ChildrenList>
+						<Action Name="" ID="{4C9B7F50-A6BB-4C22-BDE2-89135FCAA825}" ShortID="949310678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Table (wooden)" ID="{C142CEC8-5672-411A-8C27-E2EC187787D7}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wall" ID="{AAAA719E-70FC-411A-8E62-BF8DC8042ACE}">
+					<ChildrenList>
+						<Action Name="" ID="{ABD7520C-1469-465C-9270-1EABE9DA09EA}" ShortID="599044802">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wall" ID="{B24D34EB-7EC7-40A8-818E-F7EAD981F221}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Window" ID="{88508078-82CD-4D63-BD16-AFBD8F3FCB62}">
+					<ChildrenList>
+						<Action Name="" ID="{944C19E2-4B43-4883-A0F6-BF77B50AF4D0}" ShortID="765444316">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Window" ID="{9C37932F-7411-4940-BE3B-879C14D7044D}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DrawerWooden" ID="{B731EF14-BC88-4EC0-BB70-B85A711C6935}">
+					<ChildrenList>
+						<Action Name="" ID="{76103F0B-CD1A-4C47-B537-5DC1B20564BA}" ShortID="584079314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drawer Wooden" ID="{E0612C17-E6D2-413A-AF6A-8EA451B553AC}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FoodCanSolid" ID="{4816B3EC-55D9-485C-94B6-CB0C9885C648}">
+					<ChildrenList>
+						<Action Name="" ID="{7719AC9C-633E-4B02-838A-6721BB229A36}" ShortID="491272462">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Food Can (Solid)" ID="{8CD57BD4-B7C8-452F-8470-3D3B5BAB40CD}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

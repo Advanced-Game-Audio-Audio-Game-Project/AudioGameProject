@@ -3,8 +3,28 @@
 	<Events>
 		<WorkUnit Name="AMBIANCE" ID="{139A24EC-42C9-433F-9D59-96A821C74DF2}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Indoor" ID="{F567B860-FA9D-4219-B56C-093DB4FF5CC6}"/>
-				<Event Name="Street" ID="{97D49F55-9111-4218-AB10-DC0295CC8D40}"/>
+				<Event Name="Indoor" ID="{F567B860-FA9D-4219-B56C-093DB4FF5CC6}">
+					<ChildrenList>
+						<Action Name="" ID="{1E1E8AA7-92CA-44DF-A56E-6211CDEC886E}" ShortID="981931272">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Indoor" ID="{761DF4E5-DB74-46E2-8B9B-FBA72DD477F9}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Street" ID="{97D49F55-9111-4218-AB10-DC0295CC8D40}">
+					<ChildrenList>
+						<Action Name="" ID="{4F9DB576-F066-4953-87F2-6220959E295F}" ShortID="1049258525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Street" ID="{E22A5B69-C3DD-4E01-BDD9-6A4A3FFE9059}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

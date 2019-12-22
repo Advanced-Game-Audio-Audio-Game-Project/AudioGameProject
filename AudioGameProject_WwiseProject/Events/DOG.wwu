@@ -3,10 +3,50 @@
 	<Events>
 		<WorkUnit Name="DOG" ID="{8A7409F1-E6EA-409C-8EC4-AAE3635B3673}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Barking" ID="{2000C807-50C8-4498-BE52-608F7E3067D8}"/>
-				<Event Name="FoodEating" ID="{B9340978-5FAD-439B-88DF-E99353B399A9}"/>
-				<Event Name="Patting" ID="{99E0925D-EE26-4800-9FBE-C5873F6FA516}"/>
-				<Event Name="Whine" ID="{AF1E6F0F-ECB8-4F30-9CFD-0A73A9BD7C0A}"/>
+				<Event Name="Barking" ID="{2000C807-50C8-4498-BE52-608F7E3067D8}">
+					<ChildrenList>
+						<Action Name="" ID="{071868F7-1701-4B32-929C-11AC7169230F}" ShortID="21416251">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Barking" ID="{6BC5D72E-4E3C-46F8-AA55-67A1FF304628}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FoodEating" ID="{B9340978-5FAD-439B-88DF-E99353B399A9}">
+					<ChildrenList>
+						<Action Name="" ID="{24933416-AAF8-458D-8808-234BBB5B1C42}" ShortID="126753335">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Food Eating" ID="{DA817260-1A6C-4A6D-A830-2324986067EE}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Scratching" ID="{99E0925D-EE26-4800-9FBE-C5873F6FA516}">
+					<ChildrenList>
+						<Action Name="" ID="{11235E42-0E8D-423E-A058-8DBB1894F595}" ShortID="374861069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scratching" ID="{7623E6F3-37B4-4A0B-A4F4-661E81152660}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Whine" ID="{AF1E6F0F-ECB8-4F30-9CFD-0A73A9BD7C0A}">
+					<ChildrenList>
+						<Action Name="" ID="{D2639D1F-95E0-44B9-B1C9-56D24596A6D3}" ShortID="271548534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whine" ID="{829A8222-75C7-4C53-8355-3FAB9C464742}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

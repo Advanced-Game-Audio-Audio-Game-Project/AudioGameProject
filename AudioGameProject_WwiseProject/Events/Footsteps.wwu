@@ -3,10 +3,50 @@
 	<Events>
 		<WorkUnit Name="Footsteps" ID="{866F9F0F-21B9-4303-B3C1-41B35503FABB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="DogCarpetFootsteps" ID="{8678E36B-FA0D-4476-8BA9-AC97559EE0F9}"/>
-				<Event Name="DogDefaultFootsteps" ID="{194EEEF7-C1CE-4C5C-8525-30CC1AD581A4}"/>
-				<Event Name="PlayerCarpetFootsteps" ID="{334E2E29-263E-4D96-B3AF-BDAA1D3CB7C8}"/>
-				<Event Name="PlayerDefaultFootsteps" ID="{B62964C6-E463-4F22-A3E5-BDFBBCAED1F9}"/>
+				<Event Name="DogCarpetFootsteps" ID="{8678E36B-FA0D-4476-8BA9-AC97559EE0F9}">
+					<ChildrenList>
+						<Action Name="" ID="{ABFCA2DF-8F49-43D3-9D0E-D3496C947FC9}" ShortID="980487019">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Carpet" ID="{A71BCF98-1370-4274-AFC2-FCBB2C5918E6}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DogDefaultFootsteps" ID="{194EEEF7-C1CE-4C5C-8525-30CC1AD581A4}">
+					<ChildrenList>
+						<Action Name="" ID="{32724907-AE3F-455E-93E5-08D5086BF3F8}" ShortID="867064936">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Default" ID="{548C73E2-E2A3-49E5-A387-A412CD79EEA2}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerCarpetFootsteps" ID="{334E2E29-263E-4D96-B3AF-BDAA1D3CB7C8}">
+					<ChildrenList>
+						<Action Name="" ID="{8D399F51-FF57-4BA3-81F3-FF39AC24B94D}" ShortID="869537276">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Carpet" ID="{C3FDCB89-B3B6-4B3D-8878-7C1EA36345CC}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerDefaultFootsteps" ID="{B62964C6-E463-4F22-A3E5-BDFBBCAED1F9}">
+					<ChildrenList>
+						<Action Name="" ID="{522EF655-9F89-44DF-A742-F212AC3771FB}" ShortID="332247968">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Default" ID="{DDCEC32C-CC2E-4B82-BF99-E008A9EB08B1}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

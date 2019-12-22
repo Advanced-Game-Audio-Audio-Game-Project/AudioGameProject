@@ -4,10 +4,50 @@
 		<WorkUnit Name="INTERACTION" ID="{6AF34342-1EA5-4D18-924F-7A1F07CA1636}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Dialogue" ID="{CAC82D2A-C9EB-4348-9DA5-18D7F664498A}"/>
-				<Event Name="DogFeeding" ID="{9ACC77F1-85F7-4047-A625-E0AA0A19446D}"/>
-				<Event Name="DoorOpening" ID="{060AFF4B-78F2-4219-87B4-C05134AFAB77}"/>
-				<Event Name="PhoneRing" ID="{388689D1-8922-44D1-8852-B70A02E3F337}"/>
-				<Event Name="WindowClosing" ID="{EDFD073C-04F4-4F3B-A826-E20226B00B7C}"/>
+				<Event Name="DogFeeding" ID="{9ACC77F1-85F7-4047-A625-E0AA0A19446D}">
+					<ChildrenList>
+						<Action Name="" ID="{4E8F483A-E1A2-467B-BFD6-4250F74E3701}" ShortID="702390046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dog Feeding" ID="{0573E88B-2979-4924-9161-B85E09AEC15A}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DoorOpening" ID="{060AFF4B-78F2-4219-87B4-C05134AFAB77}">
+					<ChildrenList>
+						<Action Name="" ID="{F60829C9-5730-4CF4-B97A-3F2B5377474B}" ShortID="365326153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal Door" ID="{1603EB60-7738-429B-890E-CA13660A0052}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PhoneRing" ID="{388689D1-8922-44D1-8852-B70A02E3F337}">
+					<ChildrenList>
+						<Action Name="" ID="{08F553A1-8174-4302-AD3D-C8387EDBBBD9}" ShortID="107382579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone Ring" ID="{13EAB0DA-9558-4D33-94E7-7988506897E0}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WindowClosing" ID="{EDFD073C-04F4-4F3B-A826-E20226B00B7C}">
+					<ChildrenList>
+						<Action Name="" ID="{BBB5A692-DFC5-45A7-99CC-6BF777C5F616}" ShortID="556861888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="window closing" ID="{9AC153EF-E917-475A-B948-5C983F34C2A9}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

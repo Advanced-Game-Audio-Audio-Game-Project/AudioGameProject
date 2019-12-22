@@ -1,6 +1,497 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Audio Game" ID="{05C650E2-D1A4-4B08-AE10-C797623F320A}" ShortID="530304360">
+					<ChildrenList>
+						<Folder Name="Ambience" ID="{3E3028C1-1FC2-4EDE-AE06-5ED2EE82BFB7}" ShortID="813696406">
+							<ChildrenList>
+								<Sound Name="Indoor" ID="{761DF4E5-DB74-46E2-8B9B-FBA72DD477F9}" ShortID="864960584">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Indoor" ID="{6B6E6843-A1A7-4FE1-8651-3865D4B353CF}" ShortID="525218419">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Ambience\Indoor.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Indoor" ID="{6B6E6843-A1A7-4FE1-8651-3865D4B353CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Street" ID="{E22A5B69-C3DD-4E01-BDD9-6A4A3FFE9059}" ShortID="589720158">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Street" ID="{AA506CBD-21EC-4AA8-B3A0-A013A523C5A1}" ShortID="44739354">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Ambience\Street.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Street" ID="{AA506CBD-21EC-4AA8-B3A0-A013A523C5A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dog" ID="{19B0D5CB-A99A-4B00-A89B-97FC51D792C5}" ShortID="588003289">
+							<ChildrenList>
+								<Sound Name="Barking" ID="{6BC5D72E-4E3C-46F8-AA55-67A1FF304628}" ShortID="140710319">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Barking" ID="{F9F47E87-9D7F-43A4-BF62-6320AC797458}" ShortID="938613074">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Dog\Barking.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Barking" ID="{F9F47E87-9D7F-43A4-BF62-6320AC797458}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Food Eating" ID="{DA817260-1A6C-4A6D-A830-2324986067EE}" ShortID="409592738">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Food Eating" ID="{E95F8BFE-B3C6-4472-9276-09D2F212FF40}" ShortID="1032524458">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Dog\Food Eating.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Food Eating" ID="{E95F8BFE-B3C6-4472-9276-09D2F212FF40}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Scratching" ID="{7623E6F3-37B4-4A0B-A4F4-661E81152660}" ShortID="779097280">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Scratching" ID="{7EBEAA16-472B-4F5F-820A-140E2ADC78D6}" ShortID="954761664">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Dog\Scratching.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Scratching" ID="{7EBEAA16-472B-4F5F-820A-140E2ADC78D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Whine" ID="{829A8222-75C7-4C53-8355-3FAB9C464742}" ShortID="442403310">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Whine" ID="{924F9A4B-0801-4E30-998D-DFFC245BBD48}" ShortID="488236718">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Dog\Whine.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Whine" ID="{924F9A4B-0801-4E30-998D-DFFC245BBD48}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Footstep" ID="{CEC0575E-1687-49D2-8313-E12377154022}" ShortID="827761843">
+							<ChildrenList>
+								<Folder Name="Dog" ID="{2C362B33-B7DA-477C-AF7B-054121B654A5}" ShortID="984511975">
+									<ChildrenList>
+										<Sound Name="Carpet" ID="{A71BCF98-1370-4274-AFC2-FCBB2C5918E6}" ShortID="967123047">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Carpet" ID="{8D524DDC-B71A-499C-9E6E-4E698FD28669}" ShortID="213889155">
+													<Language>SFX</Language>
+													<AudioFile>Audio Game\Footstep\Dog\Carpet.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Carpet" ID="{8D524DDC-B71A-499C-9E6E-4E698FD28669}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Default" ID="{548C73E2-E2A3-49E5-A387-A412CD79EEA2}" ShortID="899158100">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Default" ID="{732EDF46-D0DE-4437-9E07-71F935F9E90B}" ShortID="888049578">
+													<Language>SFX</Language>
+													<AudioFile>Audio Game\Footstep\Dog\Default.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Default" ID="{732EDF46-D0DE-4437-9E07-71F935F9E90B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Player" ID="{5AE9C4E9-A4A8-4D6E-B170-F2C33B477C4C}" ShortID="628140900">
+									<ChildrenList>
+										<Sound Name="Carpet" ID="{C3FDCB89-B3B6-4B3D-8878-7C1EA36345CC}" ShortID="807634455">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Carpet" ID="{AD7968D4-907D-40E6-BA02-7DEB6D398707}" ShortID="51711842">
+													<Language>SFX</Language>
+													<AudioFile>Audio Game\Footstep\Player\Carpet.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Carpet" ID="{AD7968D4-907D-40E6-BA02-7DEB6D398707}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Default" ID="{DDCEC32C-CC2E-4B82-BF99-E008A9EB08B1}" ShortID="717754073">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Default" ID="{8B9BD166-15B5-445A-8FE9-16F7E4D541BB}" ShortID="1007804220">
+													<Language>SFX</Language>
+													<AudioFile>Audio Game\Footstep\Player\Default.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Default" ID="{8B9BD166-15B5-445A-8FE9-16F7E4D541BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Indicators" ID="{61DB9A41-AC17-4FE8-80F0-C94EEB724607}" ShortID="683574597">
+							<ChildrenList>
+								<Sound Name="Drawer Open" ID="{14C7D8A0-08DB-44C2-A98C-7B00131A9CEC}" ShortID="336483815">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drawer Open" ID="{7C16F473-F25C-4EC5-A45D-4521F9F8F941}" ShortID="314886676">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Drawer Open.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Drawer Open" ID="{7C16F473-F25C-4EC5-A45D-4521F9F8F941}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Drawer Wooden" ID="{E0612C17-E6D2-413A-AF6A-8EA451B553AC}" ShortID="856345471">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drawer Wooden" ID="{F8A20B7D-2963-4969-B5D2-7BE304708353}" ShortID="994740609">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Drawer Wooden.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Drawer Wooden" ID="{F8A20B7D-2963-4969-B5D2-7BE304708353}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Food Can (hollow)" ID="{C114B914-F63B-4AE3-B5C3-34EB709941E9}" ShortID="433694128">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Food Can (hollow)" ID="{07E68AC2-4507-471B-B1DC-3B8603496148}" ShortID="632398454">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Food Can (hollow).wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Food Can (hollow)" ID="{07E68AC2-4507-471B-B1DC-3B8603496148}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Food Can (Solid)" ID="{8CD57BD4-B7C8-452F-8470-3D3B5BAB40CD}" ShortID="332265691">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Food Can (Solid)" ID="{CF386E3F-E054-4E64-B3D6-CB9744670786}" ShortID="1065702058">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Food Can (Solid).wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Food Can (Solid)" ID="{CF386E3F-E054-4E64-B3D6-CB9744670786}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal Door" ID="{1603EB60-7738-429B-890E-CA13660A0052}" ShortID="784795460">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal Door" ID="{8FC44BB1-8A42-4D01-B084-9BE84CA76793}" ShortID="275627385">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Metal Door.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal Door" ID="{8FC44BB1-8A42-4D01-B084-9BE84CA76793}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Phone" ID="{C53CDD26-7CB1-4F95-89EC-DDFF8D2511DE}" ShortID="584090389">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Phone" ID="{0FE0AFDA-12EC-42B6-8FFC-03E638BCB67B}" ShortID="830164240">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Phone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Phone" ID="{0FE0AFDA-12EC-42B6-8FFC-03E638BCB67B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Table (wooden)" ID="{C142CEC8-5672-411A-8C27-E2EC187787D7}" ShortID="213530281">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Table (wooden)" ID="{821BAD1E-E790-4934-9585-9CE831E4EAE4}" ShortID="520404422">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Table (wooden).wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Table (wooden)" ID="{821BAD1E-E790-4934-9585-9CE831E4EAE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wall" ID="{B24D34EB-7EC7-40A8-818E-F7EAD981F221}" ShortID="54505763">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wall" ID="{6BAD7F71-EBD4-427F-B6FF-265004FB94C8}" ShortID="630421339">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Wall.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wall" ID="{6BAD7F71-EBD4-427F-B6FF-265004FB94C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Window" ID="{9C37932F-7411-4940-BE3B-879C14D7044D}" ShortID="726634471">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Window" ID="{FB52842B-5680-447B-9F4F-FCAA1775B4AC}" ShortID="76978190">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Indicators\Window.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Window" ID="{FB52842B-5680-447B-9F4F-FCAA1775B4AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="floorWood" ID="{DE5707A9-6711-4231-A33A-85FB1E4A4847}" ShortID="657689311">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="floorWood" ID="{E3983D12-F572-4075-B5D2-BC638E9BEAC3}" ShortID="368134283">
+											<Language>SFX</Language>
+											<AudioFile>floorWood.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="floorWood" ID="{E3983D12-F572-4075-B5D2-BC638E9BEAC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Interaction" ID="{B82325C9-F46E-4C76-92D2-12737DB513C8}" ShortID="649717768">
+							<ChildrenList>
+								<Sound Name="Dog Feeding" ID="{0573E88B-2979-4924-9161-B85E09AEC15A}" ShortID="1032130856">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dog Feeding" ID="{0462AE4B-BED2-48AA-A3E5-C1528910DEA0}" ShortID="879040400">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Interaction\Dog Feeding.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dog Feeding" ID="{0462AE4B-BED2-48AA-A3E5-C1528910DEA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door Opening" ID="{AF41392F-8E0B-467D-AF35-8365760A7F16}" ShortID="1070335294">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door Opening" ID="{38AEA4A4-3F0D-4889-8C23-D70EF6A0F50E}" ShortID="711868060">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Interaction\Door Opening.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door Opening" ID="{38AEA4A4-3F0D-4889-8C23-D70EF6A0F50E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Phone Ring" ID="{13EAB0DA-9558-4D33-94E7-7988506897E0}" ShortID="819653633">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Phone Ring" ID="{F1BCEC37-FA3B-4508-AB2D-2EAAA6371D30}" ShortID="790402825">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Interaction\Phone Ring.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Phone Ring" ID="{F1BCEC37-FA3B-4508-AB2D-2EAAA6371D30}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="window closing" ID="{9AC153EF-E917-475A-B948-5C983F34C2A9}" ShortID="501133662">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="window closing" ID="{A74DEEFE-6B78-476C-A165-475E9C3BFC7D}" ShortID="922363152">
+											<Language>SFX</Language>
+											<AudioFile>Audio Game\Interaction\window closing.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="window closing" ID="{A74DEEFE-6B78-476C-A165-475E9C3BFC7D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
