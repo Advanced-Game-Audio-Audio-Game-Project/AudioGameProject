@@ -25,7 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Drawer" ID="{05EA88CD-0EF0-4384-8612-91B6961199CB}">
+				<Event Name="DrawerOpen" ID="{05EA88CD-0EF0-4384-8612-91B6961199CB}">
 					<ChildrenList>
 						<Action Name="" ID="{E0418A1C-CCE2-4166-9B7F-CB27282E1070}" ShortID="199840395">
 							<ReferenceList>
@@ -69,7 +69,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Table" ID="{B923A613-5629-4AF6-B116-FC243A19B020}">
+				<Event Name="TableWooden" ID="{B923A613-5629-4AF6-B116-FC243A19B020}">
 					<ChildrenList>
 						<Action Name="" ID="{4C9B7F50-A6BB-4C22-BDE2-89135FCAA825}" ShortID="949310678">
 							<ReferenceList>
@@ -124,6 +124,8 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="TableSolid" ID="{41EC1A32-B31C-48C3-9E75-F697031DD8E7}"/>
+				<Event Name="DrawerHollow" ID="{C86B796A-C608-4A40-9105-A1F92721ED9C}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

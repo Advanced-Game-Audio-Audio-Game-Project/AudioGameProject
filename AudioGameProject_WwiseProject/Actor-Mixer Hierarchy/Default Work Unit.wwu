@@ -407,6 +407,16 @@
 										<ActiveSource Name="floorWood" ID="{E3983D12-F572-4075-B5D2-BC638E9BEAC3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="New Random Container" ID="{B7F6E8FF-CFDE-49F7-8D9D-6A49E64AD50B}" ShortID="671022225">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{453DF6E1-3FBD-42EB-9D3B-072554C405B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22E540BC-56D1-4D1C-9529-A4BAFBAFC7E5}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Interaction" ID="{B82325C9-F46E-4C76-92D2-12737DB513C8}" ShortID="649717768">
