@@ -5,11 +5,12 @@
 			<Language ID="393239870">
 				<File Name="EVENTS" Hash="1106981814" Timestamp="1577099479"/>
 				<File Name="Init" Hash="1182415902" Timestamp="1576670390"/>
+				<File Name="New_SoundBank" Hash="3733230778" Timestamp="1577101945"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="692335234" Timestamp="1577099479"/>
+				<File Name="" Hash="1315155973" Timestamp="1577101945"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -18,11 +19,12 @@
 			<Language ID="393239870">
 				<File Name="EVENTS" Hash="1106981814" Timestamp="1577099478"/>
 				<File Name="Init" Hash="2279659568" Timestamp="1576670389"/>
+				<File Name="New_SoundBank" Hash="3733230778" Timestamp="1577101945"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2652283508" Timestamp="1577099478"/>
+				<File Name="" Hash="1490973087" Timestamp="1577101945"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

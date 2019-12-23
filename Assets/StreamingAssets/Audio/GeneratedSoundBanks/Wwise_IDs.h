@@ -15,7 +15,6 @@ namespace AK
     {
         static const AkUniqueID BARKING = 2930748245U;
         static const AkUniqueID CARPET = 2412606308U;
-        static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID DOGCARPETFOOTSTEPS = 2758933113U;
         static const AkUniqueID DOGDEFAULTFOOTSTEPS = 527288165U;
         static const AkUniqueID DOGFEEDING = 2265501111U;
@@ -44,7 +43,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID EVENTS = 1381315342U;
+        static const AkUniqueID NEW_SOUNDBANK = 4072029455U;
     } // namespace BANKS
 
     namespace BUSSES

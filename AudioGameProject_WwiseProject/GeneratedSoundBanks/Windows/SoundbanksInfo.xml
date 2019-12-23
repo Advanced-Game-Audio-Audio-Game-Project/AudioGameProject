@@ -16,14 +16,13 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1381315342" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\EVENTS</ObjectPath>
-			<ShortName>EVENTS</ShortName>
-			<Path>EVENTS.bnk</Path>
+		<SoundBank Id="4072029455" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2930748245" Name="Barking" ObjectPath="\Events\DOG\Barking" DurationType="OneShot" DurationMin="0.338021" DurationMax="0.338021"/>
 				<Event Id="2412606308" Name="Carpet" ObjectPath="\Events\INDICATORS\Carpet" DurationType="OneShot" DurationMin="0.311083" DurationMax="0.311083"/>
-				<Event Id="3930136735" Name="Dialogue" ObjectPath="\Events\INTERACTION\Dialogue" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2758933113" Name="DogCarpetFootsteps" ObjectPath="\Events\Footsteps\DogCarpetFootsteps" DurationType="OneShot" DurationMin="0.338021" DurationMax="0.338021"/>
 				<Event Id="527288165" Name="DogDefaultFootsteps" ObjectPath="\Events\Footsteps\DogDefaultFootsteps" DurationType="OneShot" DurationMin="0.169021" DurationMax="0.169021"/>
 				<Event Id="2265501111" Name="DogFeeding" ObjectPath="\Events\INTERACTION\DogFeeding" DurationType="OneShot" DurationMin="1.500000" DurationMax="1.500000"/>
@@ -96,6 +95,10 @@
 				<File Id="632398454" Language="SFX">
 					<ShortName>Audio Game\Indicators\Food Can (hollow).wav</ShortName>
 					<Path>SFX\Audio Game\Indicators\Food Can (hollow)_10C4C929.wem</Path>
+				</File>
+				<File Id="711868060" Language="SFX">
+					<ShortName>Audio Game\Interaction\Door Opening.wav</ShortName>
+					<Path>SFX\Audio Game\Interaction\Door Opening_10C4C929.wem</Path>
 				</File>
 				<File Id="790402825" Language="SFX">
 					<ShortName>Audio Game\Interaction\Phone Ring.wav</ShortName>

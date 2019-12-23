@@ -3,13 +3,39 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{20C77FB0-E17B-4737-9EFF-022AD2C57453}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="EVENTS" ID="{CBEA9E66-6F51-4396-8B60-849BC9188795}">
+				<SoundBank Name="New_SoundBank" ID="{36B337C2-F7AF-4EEC-8B34-4E398413276A}">
 					<ObjectInclusionList>
-						<ObjectRef Name="DOG" ID="{8A7409F1-E6EA-409C-8EC4-AAE3635B3673}" WorkUnitID="{8A7409F1-E6EA-409C-8EC4-AAE3635B3673}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Footsteps" ID="{866F9F0F-21B9-4303-B3C1-41B35503FABB}" WorkUnitID="{866F9F0F-21B9-4303-B3C1-41B35503FABB}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="AMBIANCE" ID="{139A24EC-42C9-433F-9D59-96A821C74DF2}" WorkUnitID="{139A24EC-42C9-433F-9D59-96A821C74DF2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="INDICATORS" ID="{AC7399B0-2DB6-447D-8EED-C2E9580B93DE}" WorkUnitID="{AC7399B0-2DB6-447D-8EED-C2E9580B93DE}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="INTERACTION" ID="{6AF34342-1EA5-4D18-924F-7A1F07CA1636}" WorkUnitID="{6AF34342-1EA5-4D18-924F-7A1F07CA1636}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Wall" ID="{B24D34EB-7EC7-40A8-818E-F7EAD981F221}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Table (wooden)" ID="{C142CEC8-5672-411A-8C27-E2EC187787D7}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Drawer Wooden" ID="{E0612C17-E6D2-413A-AF6A-8EA451B553AC}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="floorWood" ID="{DE5707A9-6711-4231-A33A-85FB1E4A4847}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Carpet" ID="{A71BCF98-1370-4274-AFC2-FCBB2C5918E6}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Metal Door" ID="{1603EB60-7738-429B-890E-CA13660A0052}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Drawer Open" ID="{14C7D8A0-08DB-44C2-A98C-7B00131A9CEC}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Food Can (Solid)" ID="{8CD57BD4-B7C8-452F-8470-3D3B5BAB40CD}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Door Opening" ID="{AF41392F-8E0B-467D-AF35-8365760A7F16}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Indoor" ID="{761DF4E5-DB74-46E2-8B9B-FBA72DD477F9}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Barking" ID="{6BC5D72E-4E3C-46F8-AA55-67A1FF304628}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="window closing" ID="{9AC153EF-E917-475A-B948-5C983F34C2A9}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Dog" ID="{2C362B33-B7DA-477C-AF7B-054121B654A5}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Dog Feeding" ID="{0573E88B-2979-4924-9161-B85E09AEC15A}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Window" ID="{9C37932F-7411-4940-BE3B-879C14D7044D}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footstep" ID="{CEC0575E-1687-49D2-8313-E12377154022}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default" ID="{548C73E2-E2A3-49E5-A387-A412CD79EEA2}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Scratching" ID="{7623E6F3-37B4-4A0B-A4F4-661E81152660}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Food Eating" ID="{DA817260-1A6C-4A6D-A830-2324986067EE}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Food Can (hollow)" ID="{C114B914-F63B-4AE3-B5C3-34EB709941E9}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Dog" ID="{19B0D5CB-A99A-4B00-A89B-97FC51D792C5}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Carpet" ID="{C3FDCB89-B3B6-4B3D-8878-7C1EA36345CC}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default" ID="{DDCEC32C-CC2E-4B82-BF99-E008A9EB08B1}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Whine" ID="{829A8222-75C7-4C53-8355-3FAB9C464742}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Interaction" ID="{B82325C9-F46E-4C76-92D2-12737DB513C8}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Phone Ring" ID="{13EAB0DA-9558-4D33-94E7-7988506897E0}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player" ID="{5AE9C4E9-A4A8-4D6E-B170-F2C33B477C4C}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Street" ID="{E22A5B69-C3DD-4E01-BDD9-6A4A3FFE9059}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambience" ID="{3E3028C1-1FC2-4EDE-AE06-5ED2EE82BFB7}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Phone" ID="{C53CDD26-7CB1-4F95-89EC-DDFF8D2511DE}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Indicators" ID="{61DB9A41-AC17-4FE8-80F0-C94EEB724607}" WorkUnitID="{3D65AEBC-FA28-4AC8-82B1-08A08F5D9743}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
