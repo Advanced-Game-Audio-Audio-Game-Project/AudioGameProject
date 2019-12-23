@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{20C77FB0-E17B-4737-9EFF-022AD2C57453}" SchemaVersion="94">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{20C77FB0-E17B-4737-9EFF-022AD2C57453}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{20C77FB0-E17B-4737-9EFF-022AD2C57453}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="EVENTS" ID="{CBEA9E66-6F51-4396-8B60-849BC9188795}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DOG" ID="{8A7409F1-E6EA-409C-8EC4-AAE3635B3673}" WorkUnitID="{8A7409F1-E6EA-409C-8EC4-AAE3635B3673}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps" ID="{866F9F0F-21B9-4303-B3C1-41B35503FABB}" WorkUnitID="{866F9F0F-21B9-4303-B3C1-41B35503FABB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMBIANCE" ID="{139A24EC-42C9-433F-9D59-96A821C74DF2}" WorkUnitID="{139A24EC-42C9-433F-9D59-96A821C74DF2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="INDICATORS" ID="{AC7399B0-2DB6-447D-8EED-C2E9580B93DE}" WorkUnitID="{AC7399B0-2DB6-447D-8EED-C2E9580B93DE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="INTERACTION" ID="{6AF34342-1EA5-4D18-924F-7A1F07CA1636}" WorkUnitID="{6AF34342-1EA5-4D18-924F-7A1F07CA1636}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

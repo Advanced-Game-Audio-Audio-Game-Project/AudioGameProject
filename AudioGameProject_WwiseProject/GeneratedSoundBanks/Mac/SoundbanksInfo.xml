@@ -16,5 +16,132 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="1381315342" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\EVENTS</ObjectPath>
+			<ShortName>EVENTS</ShortName>
+			<Path>EVENTS.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2930748245" Name="Barking" ObjectPath="\Events\DOG\Barking" DurationType="OneShot" DurationMin="0.338021" DurationMax="0.338021"/>
+				<Event Id="2412606308" Name="Carpet" ObjectPath="\Events\INDICATORS\Carpet" DurationType="OneShot" DurationMin="0.311083" DurationMax="0.311083"/>
+				<Event Id="3930136735" Name="Dialogue" ObjectPath="\Events\INTERACTION\Dialogue" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2758933113" Name="DogCarpetFootsteps" ObjectPath="\Events\Footsteps\DogCarpetFootsteps" DurationType="OneShot" DurationMin="0.338021" DurationMax="0.338021"/>
+				<Event Id="527288165" Name="DogDefaultFootsteps" ObjectPath="\Events\Footsteps\DogDefaultFootsteps" DurationType="OneShot" DurationMin="0.169021" DurationMax="0.169021"/>
+				<Event Id="2265501111" Name="DogFeeding" ObjectPath="\Events\INTERACTION\DogFeeding" DurationType="OneShot" DurationMin="1.500000" DurationMax="1.500000"/>
+				<Event Id="1877847629" Name="Door" ObjectPath="\Events\INDICATORS\Door" DurationType="OneShot" DurationMin="0.507021" DurationMax="0.507021"/>
+				<Event Id="2410498159" Name="DoorOpening" ObjectPath="\Events\INTERACTION\DoorOpening" DurationType="OneShot" DurationMin="0.507021" DurationMax="0.507021"/>
+				<Event Id="2932023098" Name="Drawer" ObjectPath="\Events\INDICATORS\Drawer" DurationType="OneShot" DurationMin="1.162000" DurationMax="1.162000"/>
+				<Event Id="3621329016" Name="DrawerWooden" ObjectPath="\Events\INDICATORS\DrawerWooden" DurationType="OneShot" DurationMin="0.253521" DurationMax="0.253521"/>
+				<Event Id="1088209313" Name="Floor" ObjectPath="\Events\INDICATORS\Floor" DurationType="OneShot" DurationMin="0.287052" DurationMax="0.287052"/>
+				<Event Id="4005596720" Name="FoodCanHollow" ObjectPath="\Events\INDICATORS\FoodCanHollow" DurationType="OneShot" DurationMin="0.338021" DurationMax="0.338021"/>
+				<Event Id="4250042498" Name="FoodCanSolid" ObjectPath="\Events\INDICATORS\FoodCanSolid" DurationType="OneShot" DurationMin="0.209646" DurationMax="0.209646"/>
+				<Event Id="793574567" Name="FoodEating" ObjectPath="\Events\DOG\FoodEating" DurationType="OneShot" DurationMin="1.436750" DurationMax="1.436750"/>
+				<Event Id="340398852" Name="Indoor" ObjectPath="\Events\AMBIANCE\Indoor" DurationType="OneShot" DurationMin="125.729439" DurationMax="125.729439"/>
+				<Event Id="3104856687" Name="Phone" ObjectPath="\Events\INDICATORS\Phone" DurationType="OneShot" DurationMin="1.223604" DurationMax="1.223604"/>
+				<Event Id="3074298065" Name="PhoneRing" ObjectPath="\Events\INTERACTION\PhoneRing" DurationType="OneShot" DurationMin="2.366021" DurationMax="2.366021"/>
+				<Event Id="1131172588" Name="PlayerCarpetFootsteps" ObjectPath="\Events\Footsteps\PlayerCarpetFootsteps" DurationType="OneShot" DurationMin="0.311083" DurationMax="0.311083"/>
+				<Event Id="1416644778" Name="PlayerDefaultFootsteps" ObjectPath="\Events\Footsteps\PlayerDefaultFootsteps" DurationType="OneShot" DurationMin="0.253521" DurationMax="0.253521"/>
+				<Event Id="1481018943" Name="Scratching" ObjectPath="\Events\DOG\Scratching" DurationType="OneShot" DurationMin="2.704021" DurationMax="2.704021"/>
+				<Event Id="4142189312" Name="Street" ObjectPath="\Events\AMBIANCE\Street" DurationType="OneShot" DurationMin="43.264019" DurationMax="43.264019"/>
+				<Event Id="2048817515" Name="Table" ObjectPath="\Events\INDICATORS\Table" DurationType="OneShot" DurationMin="0.250000" DurationMax="0.250000"/>
+				<Event Id="2108779961" Name="Wall" ObjectPath="\Events\INDICATORS\Wall" DurationType="OneShot" DurationMin="0.169021" DurationMax="0.169021"/>
+				<Event Id="3279406346" Name="Whine" ObjectPath="\Events\DOG\Whine" DurationType="OneShot" DurationMin="2.704021" DurationMax="2.704021"/>
+				<Event Id="2330457189" Name="Window" ObjectPath="\Events\INDICATORS\Window" DurationType="OneShot" DurationMin="0.591521" DurationMax="0.591521"/>
+				<Event Id="1639683562" Name="WindowClosing" ObjectPath="\Events\INTERACTION\WindowClosing" DurationType="OneShot" DurationMin="0.169021" DurationMax="0.169021"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="44739354" Language="SFX">
+					<ShortName>Audio Game\Ambience\Street.wav</ShortName>
+					<Path>SFX\Audio Game\Ambience\Street_10C4C929.wem</Path>
+				</File>
+				<File Id="51711842" Language="SFX">
+					<ShortName>Audio Game\Footstep\Player\Carpet.wav</ShortName>
+					<Path>SFX\Audio Game\Footstep\Player\Carpet_10C4C929.wem</Path>
+				</File>
+				<File Id="76978190" Language="SFX">
+					<ShortName>Audio Game\Indicators\Window.wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Window_10C4C929.wem</Path>
+				</File>
+				<File Id="213889155" Language="SFX">
+					<ShortName>Audio Game\Footstep\Dog\Carpet.wav</ShortName>
+					<Path>SFX\Audio Game\Footstep\Dog\Carpet_10C4C929.wem</Path>
+				</File>
+				<File Id="275627385" Language="SFX">
+					<ShortName>Audio Game\Indicators\Metal Door.wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Metal Door_10C4C929.wem</Path>
+				</File>
+				<File Id="314886676" Language="SFX">
+					<ShortName>Audio Game\Indicators\Drawer Open.wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Drawer Open_10C4C929.wem</Path>
+				</File>
+				<File Id="368134283" Language="SFX">
+					<ShortName>floorWood.wav</ShortName>
+					<Path>SFX\floorWood_10C4C929.wem</Path>
+				</File>
+				<File Id="488236718" Language="SFX">
+					<ShortName>Audio Game\Dog\Whine.wav</ShortName>
+					<Path>SFX\Audio Game\Dog\Whine_10C4C929.wem</Path>
+				</File>
+				<File Id="520404422" Language="SFX">
+					<ShortName>Audio Game\Indicators\Table (wooden).wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Table (wooden)_10C4C929.wem</Path>
+				</File>
+				<File Id="525218419" Language="SFX">
+					<ShortName>Audio Game\Ambience\Indoor.wav</ShortName>
+					<Path>SFX\Audio Game\Ambience\Indoor_10C4C929.wem</Path>
+				</File>
+				<File Id="630421339" Language="SFX">
+					<ShortName>Audio Game\Indicators\Wall.wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Wall_10C4C929.wem</Path>
+				</File>
+				<File Id="632398454" Language="SFX">
+					<ShortName>Audio Game\Indicators\Food Can (hollow).wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Food Can (hollow)_10C4C929.wem</Path>
+				</File>
+				<File Id="790402825" Language="SFX">
+					<ShortName>Audio Game\Interaction\Phone Ring.wav</ShortName>
+					<Path>SFX\Audio Game\Interaction\Phone Ring_10C4C929.wem</Path>
+				</File>
+				<File Id="830164240" Language="SFX">
+					<ShortName>Audio Game\Indicators\Phone.wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Phone_10C4C929.wem</Path>
+				</File>
+				<File Id="879040400" Language="SFX">
+					<ShortName>Audio Game\Interaction\Dog Feeding.wav</ShortName>
+					<Path>SFX\Audio Game\Interaction\Dog Feeding_10C4C929.wem</Path>
+				</File>
+				<File Id="888049578" Language="SFX">
+					<ShortName>Audio Game\Footstep\Dog\Default.wav</ShortName>
+					<Path>SFX\Audio Game\Footstep\Dog\Default_10C4C929.wem</Path>
+				</File>
+				<File Id="922363152" Language="SFX">
+					<ShortName>Audio Game\Interaction\window closing.wav</ShortName>
+					<Path>SFX\Audio Game\Interaction\window closing_10C4C929.wem</Path>
+				</File>
+				<File Id="938613074" Language="SFX">
+					<ShortName>Audio Game\Dog\Barking.wav</ShortName>
+					<Path>SFX\Audio Game\Dog\Barking_10C4C929.wem</Path>
+				</File>
+				<File Id="954761664" Language="SFX">
+					<ShortName>Audio Game\Dog\Scratching.wav</ShortName>
+					<Path>SFX\Audio Game\Dog\Scratching_10C4C929.wem</Path>
+				</File>
+				<File Id="994740609" Language="SFX">
+					<ShortName>Audio Game\Indicators\Drawer Wooden.wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Drawer Wooden_10C4C929.wem</Path>
+				</File>
+				<File Id="1007804220" Language="SFX">
+					<ShortName>Audio Game\Footstep\Player\Default.wav</ShortName>
+					<Path>SFX\Audio Game\Footstep\Player\Default_10C4C929.wem</Path>
+				</File>
+				<File Id="1032524458" Language="SFX">
+					<ShortName>Audio Game\Dog\Food Eating.wav</ShortName>
+					<Path>SFX\Audio Game\Dog\Food Eating_10C4C929.wem</Path>
+				</File>
+				<File Id="1065702058" Language="SFX">
+					<ShortName>Audio Game\Indicators\Food Can (Solid).wav</ShortName>
+					<Path>SFX\Audio Game\Indicators\Food Can (Solid)_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

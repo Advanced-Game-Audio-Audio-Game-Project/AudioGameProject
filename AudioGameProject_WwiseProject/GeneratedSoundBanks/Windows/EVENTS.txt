@@ -1,0 +1,53 @@
+Event	ID	Name			Wwise Object Path	Notes
+	340398852	Indoor			\AMBIANCE\Indoor	
+	527288165	DogDefaultFootsteps			\Footsteps\DogDefaultFootsteps	
+	793574567	FoodEating			\DOG\FoodEating	
+	1088209313	Floor			\INDICATORS\Floor	
+	1131172588	PlayerCarpetFootsteps			\Footsteps\PlayerCarpetFootsteps	
+	1416644778	PlayerDefaultFootsteps			\Footsteps\PlayerDefaultFootsteps	
+	1481018943	Scratching			\DOG\Scratching	
+	1639683562	WindowClosing			\INTERACTION\WindowClosing	
+	1877847629	Door			\INDICATORS\Door	
+	2048817515	Table			\INDICATORS\Table	
+	2108779961	Wall			\INDICATORS\Wall	
+	2265501111	DogFeeding			\INTERACTION\DogFeeding	
+	2330457189	Window			\INDICATORS\Window	
+	2410498159	DoorOpening			\INTERACTION\DoorOpening	
+	2412606308	Carpet			\INDICATORS\Carpet	
+	2758933113	DogCarpetFootsteps			\Footsteps\DogCarpetFootsteps	
+	2930748245	Barking			\DOG\Barking	
+	2932023098	Drawer			\INDICATORS\Drawer	
+	3074298065	PhoneRing			\INTERACTION\PhoneRing	
+	3104856687	Phone			\INDICATORS\Phone	
+	3279406346	Whine			\DOG\Whine	
+	3621329016	DrawerWooden			\INDICATORS\DrawerWooden	
+	3930136735	Dialogue			\INTERACTION\Dialogue	
+	4005596720	FoodCanHollow			\INDICATORS\FoodCanHollow	
+	4142189312	Street			\AMBIANCE\Street	
+	4250042498	FoodCanSolid			\INDICATORS\FoodCanSolid	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	44739354	Street	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Ambience\Street_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Ambience\Street		8306756
+	51711842	Carpet	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Footstep\Player\Carpet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Footstep\Player\Carpet		59792
+	76978190	Window	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Window_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Window		113636
+	213889155	Carpet	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Footstep\Dog\Carpet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Footstep\Dog\Carpet		64964
+	275627385	Metal Door	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Metal Door_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Metal Door		97412
+	314886676	Drawer Open	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Drawer Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Drawer Open		223168
+	368134283	floorWood	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\floorWood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\floorWood		50700
+	488236718	Whine	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Dog\Whine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Dog\Whine		519236
+	520404422	Table (wooden)	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Table (wooden)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Table (wooden)		48064
+	525218419	Indoor	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Ambience\Indoor_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Ambience\Indoor		24140116
+	630421339	Wall	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Wall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Wall		32516
+	632398454	Food Can (hollow)	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Food Can (hollow)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Food Can (hollow)		64964
+	790402825	Phone Ring	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Interaction\Phone Ring_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Interaction\Phone Ring		454340
+	830164240	Phone	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Phone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Phone		234996
+	879040400	Dog Feeding	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Interaction\Dog Feeding_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Interaction\Dog Feeding		288064
+	888049578	Default	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Footstep\Dog\Default_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Footstep\Dog\Default		32516
+	922363152	window closing	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Interaction\window closing_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Interaction\window closing		32516
+	938613074	Barking	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Dog\Barking_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Dog\Barking		64964
+	954761664	Scratching	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Dog\Scratching_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Dog\Scratching		519236
+	994740609	Drawer Wooden	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Drawer Wooden_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Drawer Wooden		48740
+	1007804220	Default	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Footstep\Player\Default_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Footstep\Player\Default		48740
+	1032524458	Food Eating	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Dog\Food Eating_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Dog\Food Eating		275920
+	1065702058	Food Can (Solid)	C:\Users\asus\Documents\GitHub\AudioGameProject\AudioGameProject_WwiseProject\.cache\Windows\SFX\Audio Game\Indicators\Food Can (Solid)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio Game\Indicators\Food Can (Solid)		40316
+
